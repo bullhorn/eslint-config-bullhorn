@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-bullhorn",
+  "version": "0.0.1",
+  "description": "An eslint config for Bullhorn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bullhorn/eslint-config-bullhorn.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "Joshua Godi <joshuagodi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bullhorn/eslint-config-bullhorn/issues"
+  },
+  "homepage": "https://github.com/bullhorn/eslint-config-bullhorn#readme",
+  "peerDependencies": {
+    "babel-eslint": "^4.1.5"
+  }
+}
