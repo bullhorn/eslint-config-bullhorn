@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bullhorn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An eslint config for Bullhorn",
   "main": "index.js",
   "scripts": {
