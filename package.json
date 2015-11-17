@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/bullhorn/eslint-config-bullhorn#readme",
   "peerDependencies": {
-    "babel-eslint": "^4.1.5"
+    "babel-eslint": "^4.1.5",
+    "eslint-plugin-mocha": "^0.5.1 || ^1.0.0"
   }
 }
