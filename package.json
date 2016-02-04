@@ -1,27 +1,30 @@
 {
   "name": "eslint-config-bullhorn",
-  "version": "0.0.2",
-  "description": "An eslint config for Bullhorn",
+  "version": "0.0.19",
+  "description": "Bullhorns's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bullhorn/eslint-config-bullhorn.git"
+    "url": "https://github.com/bullhorn/standards-code-style"
   },
   "keywords": [
     "eslint",
-    "config"
+    "eslintconfig",
+    "config",
+    "bullhorn",
+    "javascript",
+    "styleguide"
   ],
-  "author": "Joshua Godi <joshuagodi@gmail.com>",
+  "author": "Joshua Godi <jgodi@bullhorn.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bullhorn/eslint-config-bullhorn/issues"
   },
-  "homepage": "https://github.com/bullhorn/eslint-config-bullhorn#readme",
-  "peerDependencies": {
-    "babel-eslint": "^4.1.5",
-    "eslint-plugin-mocha": "^0.5.1 || ^1.0.0"
+  "homepage": "https://github.com/bullhorn/eslint-config-bullhorn",
+  "devDependencies": {
+    "eslint": "^1.10.3"
   }
 }
