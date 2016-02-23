@@ -6,6 +6,7 @@ module.exports = {
     rules: {},
     'globals': {
         '$': true,
+        '$$': true,
         '_': true,
         'System': true,
         'Promise': true,
