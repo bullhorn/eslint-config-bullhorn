@@ -13,6 +13,7 @@ module.exports = {
         'element': true,
         'by': true,
         'describe': true,
+        'beforeAll': true,
         'xdescribe': true,
         'beforeEach': true,
         'it': true,
