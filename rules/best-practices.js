@@ -7,7 +7,7 @@ module.exports = {
         // specify the maximum cyclomatic complexity allowed in a program
         'complexity': [0, 11],
         // require return statements to either always or never specify values
-        'consistent-return': 2,
+        'consistent-return': 1,
         // specify curly brace conventions for all control statements
         'curly': [2, 'multi-line'],
         // require default case in switch statements
@@ -28,8 +28,6 @@ module.exports = {
         'no-div-regex': 0,
         // disallow else after a return in an if
         'no-else-return': 2,
-        // disallow use of labels for anything other then loops and switches
-        'no-empty-label': 2,
         // disallow comparisons to null without a type-checking operator
         'no-eq-null': 0,
         // disallow use of eval()

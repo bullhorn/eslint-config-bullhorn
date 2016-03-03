@@ -1,0 +1,26 @@
+module.exports = {
+    'globals': {
+        '$': true,
+        '$$': true,
+        '_': true,
+        'beforeAll': true,
+        'beforeEach': true,
+        'browser': true,
+        'by': true,
+        'describe': true,
+        'Dropzone': true,
+        'element': true,
+        'expect': true,
+        'hljs': true,
+        'io': true,
+        'it': true,
+        'jasmine': true,
+        'Mockery': true,
+        'Promise': true,
+        'spyOn': true,
+        'state': true,
+        'System': true,
+        'xdescribe': true,
+        'xit': true,
+    }
+}

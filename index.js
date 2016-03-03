@@ -1,5 +1,5 @@
 module.exports = {
-    'extends': [
+    extends: [
         'eslint-config-bullhorn/base'
     ],
     rules: {}
