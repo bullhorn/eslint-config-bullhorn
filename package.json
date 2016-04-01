@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bullhorn",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "description": "Bullhorns's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {

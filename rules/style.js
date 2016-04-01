@@ -57,7 +57,7 @@ module.exports = {
         // require a capital letter for constructors
         'new-cap': [1, {
             'newIsCap': true,
-            'capIsNewExceptions': ['Injectable', 'Component', 'Directive', 'Pipe', 'RouteConfig']
+            'capIsNewExceptions': ['Router', 'Compiler', 'NovoMiddleware', 'Injectable', 'Component', 'Directive', 'Pipe', 'RouteConfig']
         }],
         // disallow the omission of parentheses when invoking a constructor with no arguments
         'new-parens': 0,
@@ -138,10 +138,7 @@ module.exports = {
         // Require or disallow spaces before/after unary operators
         'space-unary-ops': 0,
         // require or disallow a space immediately following the // or /* in a comment
-        'spaced-comment': [1, 'always', {
-            'exceptions': ['-', '+'],
-            'markers': ['=', '!']           // space here to support sprockets directives
-        }],
+        'spaced-comment': 0,
         // require regex literals to be wrapped in parentheses
         'wrap-regex': 0
     }

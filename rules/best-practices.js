@@ -8,7 +8,7 @@ module.exports = {
         // treat var statements as if they were block scoped
         'block-scoped-var': 2,
         // specify the maximum cyclomatic complexity allowed in a program
-        'complexity': [1, 11],
+        'complexity': 0,
         // require return statements to either always or never specify values
         'consistent-return': 1,
         // specify curly brace conventions for all control statements
@@ -85,7 +85,7 @@ module.exports = {
         // disallow reassignments of native objects
         'no-native-reassign': 2,
         // disallow use of new operator when not part of the assignment or comparison
-        'no-new': 1,
+        'no-new': 0,
         // disallow use of new operator for Function object
         'no-new-func': 2,
         // disallows creating new instances of String, Number, and Boolean
