@@ -19,7 +19,7 @@ module.exports = {
         // enforce newline at the end of file, with no multiple empty lines
         'eol-last': 2,
         // require function expressions to have a name
-        'func-names': 1,
+        'func-names': 2,
         // enforces use of function declarations or expressions
         'func-style': 0,
         // this option enforces minimum and maximum identifier lengths
@@ -48,17 +48,11 @@ module.exports = {
         'linebreak-style': 0,
         // specify the maximum length of a line in your program
         // https://github.com/eslint/eslint/blob/master/docs/rules/max-len.md
-        'max-len': [1, 600, 2, {
-            'ignoreUrls': true,
-            'ignoreComments': false
-        }],
+        'max-len': 0,
         // specify the maximum depth callbacks can be nested
         'max-nested-callbacks': 0,
         // require a capital letter for constructors
-        'new-cap': [1, {
-            'newIsCap': true,
-            'capIsNewExceptions': ['Router', 'Compiler', 'NovoMiddleware', 'Injectable', 'Component', 'Directive', 'Pipe', 'RouteConfig']
-        }],
+        'new-cap': 0,
         // disallow the omission of parentheses when invoking a constructor with no arguments
         'new-parens': 0,
         // allow/disallow an empty newline after var statement
@@ -82,7 +76,7 @@ module.exports = {
         // disallow multiple empty lines and only one newline at the end
         'no-multiple-empty-lines': [2, { 'max': 2, 'maxEOF': 1 }],
         // disallow nested ternary expressions
-        'no-nested-ternary': 1,
+        'no-nested-ternary': 2,
         // disallow use of the Object constructor
         'no-new-object': 2,
         // disallow space between function identifier and application
@@ -101,7 +95,7 @@ module.exports = {
         // http://eslint.org/docs/rules/no-whitespace-before-property
         'no-whitespace-before-property': 2,
         // require padding inside curly braces
-        'object-curly-spacing': [1, 'always'],
+        'object-curly-spacing': [2, 'always'],
         // allow just one var statement per function
         'one-var': 0,
         // require a newline around variable declaration
@@ -117,7 +111,7 @@ module.exports = {
         // http://eslint.org/docs/rules/quote-props.html
         'quote-props': [2, 'consistent', { 'keywords': false, 'unnecessary': true, 'numbers': false }],
         // specify whether double or single quotes should be used
-        'quotes': [1, 'single', 'avoid-escape'],
+        'quotes': [2, 'single', 'avoid-escape'],
         // require identifiers to match the provided regular expression
         'id-match': 0,
         // enforce spacing before and after semicolons
@@ -132,7 +126,7 @@ module.exports = {
         // https://github.com/eslint/eslint/blob/master/docs/rules/space-before-function-paren.md
         'space-before-function-paren': [1, { 'anonymous': 'always', 'named': 'never' }],
         // require or disallow spaces inside parentheses
-        'space-in-parens': [1, 'never'],
+        'space-in-parens': [2, 'never'],
         // require spaces around operators
         'space-infix-ops': 2,
         // Require or disallow spaces before/after unary operators

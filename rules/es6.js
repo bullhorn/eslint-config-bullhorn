@@ -51,7 +51,7 @@ module.exports = {
         // https://github.com/eslint/eslint/blob/master/docs/rules/object-shorthand.md
         'object-shorthand': 0,
         // suggest using arrow functions as callbacks
-        'prefer-arrow-callback': 1,
+        'prefer-arrow-callback': 2,
         // suggest using of const declaration for variables that are never modified after declared
         'prefer-const': 0,
         // suggest using the spread operator instead of .apply()
@@ -63,7 +63,7 @@ module.exports = {
         'prefer-rest-params': 1,
         // suggest using template literals instead of string concatenation
         // http://eslint.org/docs/rules/prefer-template
-        'prefer-template': 1,
+        'prefer-template': 2,
         // disallow generator functions that do not have yield
         'require-yield': 0,
         // import sorting

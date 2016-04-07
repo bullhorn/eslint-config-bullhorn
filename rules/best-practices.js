@@ -10,7 +10,7 @@ module.exports = {
         // specify the maximum cyclomatic complexity allowed in a program
         'complexity': 0,
         // require return statements to either always or never specify values
-        'consistent-return': 1,
+        'consistent-return': 2,
         // specify curly brace conventions for all control statements
         'curly': [2, 'multi-line'],
         // require default case in switch statements
@@ -28,13 +28,15 @@ module.exports = {
         // Blacklist certain identifiers to prevent them being used
         // http://eslint.org/docs/rules/id-blacklist
         'id-blacklist': 0,
+        // Specify the Maximum Number of Statements Allowed per Line
+        'max-statements-per-line': [1, { 'max': 2 }],
         // disallow the use of alert, confirm, and prompt
         'no-alert': 1,
         // disallow use of arguments.caller or arguments.callee
         'no-caller': 2,
         // disallow lexical declarations in case/default clauses
         // http://eslint.org/docs/rules/no-case-declarations.html
-        'no-case-declarations': 1,
+        'no-case-declarations': 0,
         // disallow division operators explicitly at beginning of regular expression
         'no-div-regex': 0,
         // Disallow duplicate name in class members
@@ -81,7 +83,7 @@ module.exports = {
         // disallow use of multiline strings
         'no-multi-str': 2,
         // Disallow use of negated expressions in conditions
-        'no-negated-condition': 1,
+        'no-negated-condition': 0,
         // disallow reassignments of native objects
         'no-native-reassign': 2,
         // disallow use of new operator when not part of the assignment or comparison
@@ -106,7 +108,7 @@ module.exports = {
         // disallow declaring the same variable more then once
         'no-redeclare': 1,
         // restricted syntax use
-        'no-restricted-syntax': [1, "WithStatement"],
+        'no-restricted-syntax': 0,
         // disallow use of assignment in return statement
         'no-return-assign': 0,
         // disallow use of `javascript:` urls.
@@ -128,7 +130,7 @@ module.exports = {
         // disallow unnecessary .call() and .apply()
         'no-useless-call': 0,
         // disallow unnecessary escape usage
-        'no-useless-escape': 1,
+        'no-useless-escape': 0,
         // Disallow unnecessary concatenation of strings,
         'no-useless-concat': 1,
         // disallow use of void operator

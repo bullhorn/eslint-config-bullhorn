@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-bullhorn",
-  "version": "0.0.28",
+  "version": "0.0.29",
   "description": "Bullhorns's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "findMissingRules": "node find-missing-rules.js"
+    "find-new": "node find-missing-rules.js"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/bullhorn/eslint-config-bullhorn",
   "devDependencies": {
-    "eslint": "2.5.3",
+    "eslint": "2.7.0",
     "lodash.concat": "^4.1.0",
     "lodash.difference": "^4.1.1"
   }
