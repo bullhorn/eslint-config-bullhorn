@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/bullhorn/eslint-config-bullhorn",
   "devDependencies": {
-    "eslint": "2.7.0",
-    "lodash.concat": "^4.1.0",
-    "lodash.difference": "^4.1.1"
+    "eslint": "2.9.0",
+    "lodash.concat": "^4.3.0",
+    "lodash.difference": "^4.2.0"
   }
 }

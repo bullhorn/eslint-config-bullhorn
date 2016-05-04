@@ -119,6 +119,10 @@ module.exports = {
         'no-sequences': 2,
         // restrict what can be thrown as an exception
         'no-throw-literal': 2,
+        // Disallow unnecessary computed property keys on objects
+        'no-useless-computed-key': 2,
+        // disallow control flow statements in finally blocks
+        'no-unsafe-finally': 2,
         // disallow unmodified conditions of loops
         // http://eslint.org/docs/rules/no-unmodified-loop-condition
         'no-unmodified-loop-condition': 0,
