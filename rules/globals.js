@@ -4,8 +4,14 @@ module.exports = {
         '$$': true,
         '_': true,
         'beforeAll': true,
-        'beforeEach': true,
+        'afterAll': true,
+        'beforeEachProviders': false,
+        'inject': false,
         'browser': true,
+        'beforeEach': true,
+        'afterEach': true,
+        'injectAsync': true,
+        'async': true,
         'by': true,
         'describe': true,
         'Dropzone': true,
@@ -21,6 +27,6 @@ module.exports = {
         'state': true,
         'System': true,
         'xdescribe': true,
-        'xit': true,
+        'xit': true
     }
 }
